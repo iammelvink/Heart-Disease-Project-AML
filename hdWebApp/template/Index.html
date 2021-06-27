@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>HD App</title>
+  </head>
+<body>
+<h1>Heart Disease Diagnose</h1>
+{% block content %}
+<div class="card card-accent-danger mb-3" style="width: 70%; padding: 2%; margin-left: auto; margin-right: auto;">
+  <form action="{% url 'index' %}" method="post">
+    {% csrf_token %}
+    {% load widget_tweaks %}
+    <div class="form-group">
+      <label>What type of chest Pain do you have?</label>
+      {% render_field form.cp_value class="form-control" placeholder="0: Typical Anginal;  1: Atypical Anginal; 2: Non-anginal Pain; 3: Asymptomatic" %}
+    </div>
+
+    <div class="form-group">
+      <label>What is your recorded maximum heart rate?</label>
+      {% render_field form.thalach_value class="form-control" placeholder="maximum value" %}
+    </div>
+
+    <div class="form-group">
+      <label>Do you have induced angina?</label>
+      {% render_field form.exang_value class="form-control" placeholder="1: Yes; 0: No" %}
+    </div>
+
+    <div class="form-group">
+      <label>What is your ST depression induced by exercise relative to rest?</label>
+      {% render_field form.oldpeak_value class="form-control" placeholder="Induced value" %}
+    </div>
+
+    <div class="form-group">
+      <label>What is your peak exercise ST segment slope?</label>
+      {% render_field form.slope_value class="form-control" placeholder="0: Upsloping; 1: Flat; 2: Downsloping" %}
+    </div>
+
+    <div class="form-group">
+      <label>What is your heart status?</label>
+      {% render_field form.thal_value class="form-control" placeholder="0: Normal; 1: Fixed Defect; 2: Reversible defect" %}
+    </div>
+    <button type="submit" class="btn btn-primary">Press to diagnose</button>
+  </form>
+  {%if prediction %}
+  <p> Patient is: {{prediction}}</p>
+  {%endif%}
+</div>
+{% endblock %}
+
+</body>
+</html>
