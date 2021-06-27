@@ -17,7 +17,7 @@ A Machine Learning Web Application to help health practitioners solve the proble
 ## Python Notebooks
 **Notebook Name: Heart_Disease_Project_Notebook -** Contains project objective, data set description, data preprocessing, model building results and discussions <br>
 **Notebook Name: Model_Experiment -** Contains classification model building experiments <br>
-**Important:** When reviewing notebooks on github - try reloading notebook or reloading internet page if any viewing problems are encountered
+**Important Note:** When reviewing notebooks on github - try reloading notebook or reloading internet page if any viewing problems are encountered
 
 ## Sample figures from Exploratory Data Analysis 
 ![Figure 2](https://github.com/Ellie190/Heart-Disease-Project-AML/blob/main/Sample_figures/figure2.png)
