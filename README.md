@@ -19,7 +19,7 @@ A Machine Learning Web Application to help health practitioners solve the proble
 **Notebook Name: Model_Experiment -** Contains classification model building experiments <br>
 **Important:** When reviewing notebooks on github - try reloading notebook or reloading internet page if any viewing problems are encountered
 
-## Sample figures for Exploratory Data Analysis 
+## Sample figures from Exploratory Data Analysis 
 ![Figure 2](https://github.com/Ellie190/Heart-Disease-Project-AML/blob/main/Sample_figures/figure2.png)
 ![Figure 3](https://github.com/Ellie190/Heart-Disease-Project-AML/blob/main/Sample_figures/figure3.png)
 ![Figure 4](https://github.com/Ellie190/Heart-Disease-Project-AML/blob/main/Sample_figures/figure4.png)
