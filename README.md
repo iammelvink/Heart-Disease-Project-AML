@@ -2,10 +2,10 @@
 A Machine Learning Web Application to help health practitioners solve the problem of heart disease diagnosis using probabilistic machine learning methods. 
 
 # Project Overview 
-- Framed the Heart Disease problem through lenses of a probabilistic framework
-- Performed Exploratory Data Analysis to understand the Heart Disease Data Set from UCI Machine Learning Repository 
+- Framed the Heart Disease problem through the lenses of a probabilistic framework
+- Performed Exploratory Data Analysis to understand the Heart Disease Data Set from the UCI Machine Learning Repository 
 - Used 3 methods for feature selection: Correlation Analysis, Recursive Feature Elimination, and Feature Importance (using Extra Trees)
-- Built 4 Classification models: Logistic Regression, Naive Bayes, Lasso Regression, Support Vector Machine, and Probabilistic Model (for binary classification)
+- Built 5 Classification models: Logistic Regression, Naive Bayes, Lasso Regression, Support Vector Machine, and Probabilistic Model (for binary classification)
 - Compared and discussed the classification models 
 
 ## Resources 
