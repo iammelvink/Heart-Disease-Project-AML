@@ -26,15 +26,16 @@ A Machine Learning Web Application to help health practitioners solve the proble
 ![Figure 5](https://github.com/Ellie190/Heart-Disease-Project-AML/blob/main/Sample_figures/figure5.png)
 ![Figure 6](https://github.com/Ellie190/Heart-Disease-Project-AML/blob/main/Sample_figures/figure6.png)
 
-## 4 classification Machine Learning Model Performance (Accuracy)
+## Classification Machine Learning Model Performance (Accuracy)
 - Logistic Regression (using 7 features): 81%
 - Naive Bayes (using 7 features): 80%
 - Lasso Regression (using 7 features): 75%
 - Logistic Regression (using 14 features): 85%
 - Naive Bayes (using 14 features): 84% 
 - Lasso Regression (using 14 features): 83%
-- Support Vector Machine (using 14 features): 86% <br><br>
-**Models with Train-Test Split (80% Training and 20% Testing data)** <br>
+- Support Vector Machine (using 14 features): 86% 
+
+## Classification Models with Train-Test Split (80% Training and 20% Testing data) 
 - Logistic Regression Train Accuracy: 84%
 - Logistic Regression Test Accuracy: 85%
 - Support Vector Machine Train Accuracy: 87%
