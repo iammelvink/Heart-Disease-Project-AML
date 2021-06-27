@@ -33,8 +33,8 @@ A Machine Learning Web Application to help health practitioners solve the proble
 - Logistic Regression (using 14 features): 85%
 - Naive Bayes (using 14 features): 84% 
 - Lasso Regression (using 14 features): 83%
-- Support Vector Machine (using 14 features): 86% <br>
-**Models with Train-Test Split (80% Training and 20% Testing data) <br>
+- Support Vector Machine (using 14 features): 86% <br><br>
+**Models with Train-Test Split (80% Training and 20% Testing data)** <br>
 - Logistic Regression Train Accuracy: 84%
 - Logistic Regression Test Accuracy: 85%
 - Support Vector Machine Train Accuracy: 87%
@@ -46,6 +46,6 @@ A Machine Learning Web Application to help health practitioners solve the proble
 ## Django App
 **Resource:** PyCharm IDE - Windows 64 bit <br>
 **PyCharm:** Version: 2021.1.2; Build: 211.7442.45 <br>
-![Figure 7](https://github.com/Ellie190/Heart-Disease-Project-AML/blob/main/Sample_figures/figure7.png)
+![Figure 1](https://github.com/Ellie190/Heart-Disease-Project-AML/blob/main/Sample_figures/figure1.png)
 
 
