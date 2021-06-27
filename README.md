@@ -47,6 +47,7 @@ A Machine Learning Web Application to help health practitioners solve the proble
 ## Django App
 **Resource:** PyCharm IDE - Windows 64 bit <br>
 **PyCharm:** Version: 2021.1.2; Build: 211.7442.45 <br>
+**Folder:** hdWebApp 
 ![Figure 1](https://github.com/Ellie190/Heart-Disease-Project-AML/blob/main/Sample_figures/figure1.png)
 
 
